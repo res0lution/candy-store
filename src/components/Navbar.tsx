@@ -31,7 +31,7 @@ const Navbar = () => {
         Sales & Deals
       </Link>
 
-      <Link href='/experience' className='text-black font-semibold mr-3'>
+      <Link href='/experience' className='text-black font-semibold'>
         Experience
       </Link>
 
