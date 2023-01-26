@@ -1,9 +1,12 @@
-import HeaderMain from "@/components/HeaderMain";
+import BestSellers from "@/components/BestSellers";
+import GetThemNow from "@/components/GetThemeNow";
+import Layout from "@/components/Layout";
 
 export default function Home() {
   return (
-    <div>
-      <HeaderMain />
-    </div>
+    <Layout>
+      <BestSellers />
+      <GetThemNow />
+    </Layout>
   )
 }
